@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "branch": "settingupplaywright",
+  "head": "d1b06550e5aff30476ed05844fe9c2f103cbd6dd",
+  "runner": "npm",
+  "started_at": "2026-10-30T13:54:26Z",
+  "completed_at": "2026-10-30T13:54:33Z",
+  "status": "PASSED",
+  "drift_detected": false,
+  "gates": [
+    {"id": "typecheck", "source": "guide", "status": "PASS", "duration_ms": 888, "command": "npm run typecheck", "exit_code": 0, "notes": "No .ai-run/guides/quality-gates.md; fallback npm runner detection. No lint or build script in package.json (omitted). No hooks or CI config found."},
+    {"id": "unit", "source": "guide", "status": "PASS", "duration_ms": 6176, "command": "npm test", "exit_code": 0, "notes": "Rerun after chromium install; 2 passed, no skip signals in output."}
+  ],
+  "failures": {}
+}
