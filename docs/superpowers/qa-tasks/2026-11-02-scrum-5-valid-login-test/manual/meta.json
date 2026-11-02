@@ -1,0 +1,32 @@
+{
+  "ticket_id": "SCRUM-5",
+  "title": "Valid login test",
+  "date": "2026-11-02",
+  "slug": "scrum-5-valid-login-test",
+  "generated_at": "2026-11-02T07:58:47Z",
+  "ac_quality": "clear",
+  "ac_count": 2,
+  "test_count": 8,
+  "priority": { "p1": 3, "p2": 3, "p3": 2 },
+  "types": { "manual": 8, "api": 0 },
+  "test_ids": ["SCRUM-5_TC_001", "SCRUM-5_TC_002", "SCRUM-5_TC_003", "SCRUM-5_TC_004", "SCRUM-5_TC_005", "SCRUM-5_TC_006", "SCRUM-5_TC_007", "SCRUM-5_TC_008"],
+  "coverage": { "base": 6, "risk_multiplier": 1.5, "complexity_multiplier": 1.0, "simplicity_multiplier": 0.9, "final": 8 },
+  "test_management": { "system": "Jira", "issue_type": "Subtask", "issue_type_id": "10002", "parent": "SCRUM-5" },
+  "regeneration_count": 0,
+  "user_review_status": "approved",
+  "sync_status": "synced",
+  "sync_details": {
+    "system": "Jira",
+    "parent": "SCRUM-5",
+    "created": {
+      "SCRUM-5_TC_001": "SCRUM-6",
+      "SCRUM-5_TC_002": "SCRUM-7",
+      "SCRUM-5_TC_003": "SCRUM-8",
+      "SCRUM-5_TC_004": "SCRUM-9",
+      "SCRUM-5_TC_005": "SCRUM-10",
+      "SCRUM-5_TC_006": "SCRUM-11",
+      "SCRUM-5_TC_007": "SCRUM-12",
+      "SCRUM-5_TC_008": "SCRUM-13"
+    }
+  }
+}

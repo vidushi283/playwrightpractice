@@ -1,0 +1,13 @@
+{
+  "ticket_id": "SCRUM-14",
+  "title": "inventory page test on sucedemo.com",
+  "description": "As an SDET I want to create automation tests for Swag Labs (https://www.saucedemo.com/inventory.html). Pre-condition: user should be logged in using following credential and should be on Swag Labs page. username: standard_user, password: secret_sauce. Acceptance criteria: 1. 6 items should be displayed on the page. 2. all items should have price and 'Add to Cart' button.",
+  "issue_type": "Story",
+  "ac": [
+    "6 items should be displayed on the page",
+    "All items should have a price and an 'Add to Cart' button"
+  ],
+  "ac_confidence": 85,
+  "ac_source": "derived-from-description",
+  "declined": []
+}

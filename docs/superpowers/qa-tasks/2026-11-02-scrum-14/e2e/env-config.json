@@ -1,0 +1,1 @@
+{ "base_url": "https://www.saucedemo.com", "auth_method": "env var credentials with demo defaults (getCredentials(): standard_user / secret_sauce from the ticket)", "auth_env": "SAUCE_USERNAME / SAUCE_PASSWORD" }

@@ -1,0 +1,8 @@
+{"ts":"2026-11-02T07:58:47Z","phase":0,"event":"preflight_complete","detail":"no existing test cases for SCRUM-5"}
+{"ts":"2026-11-02T07:58:47Z","phase":1,"event":"environment_validated","detail":"qa-strategy.md, qa-health.md, project.md found; format structured_steps; ticket adapter Atlassian MCP; test management Jira"}
+{"ts":"2026-11-02T07:58:47Z","phase":2,"event":"ac_quality_checked","detail":"clear, 2 criteria"}
+{"ts":"2026-11-02T07:58:47Z","phase":3,"event":"context_fetched","detail":"0 comments, 0 subtasks, 0 links, 0 attachments; risk: password (+50%)"}
+{"ts":"2026-11-02T07:58:47Z","phase":4,"event":"plan_approved","detail":"8 tests P1=3 P2=3 P3=2"}
+{"ts":"2026-11-02T07:58:47Z","phase":5,"event":"test_cases_generated","detail":"8 manual UI tests written to manual/test_cases.md"}
+{"ts":"2026-11-02T08:05:00Z","phase":6,"event":"user_review_approved","detail":"0 rework cycles"}
+{"ts":"2026-11-02T08:05:00Z","phase":7,"event":"jira_sync_complete","detail":"8 Subtasks created under SCRUM-5: SCRUM-6..SCRUM-13"}

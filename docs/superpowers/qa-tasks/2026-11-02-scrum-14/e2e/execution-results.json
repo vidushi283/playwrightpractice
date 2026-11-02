@@ -1,0 +1,8 @@
+{
+  "total": 2,
+  "passing": 2,
+  "failing": 0,
+  "fixes_applied": 0,
+  "test_files": ["tests/inventory.spec.ts"],
+  "unresolved_failures": []
+}

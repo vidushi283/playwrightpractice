@@ -1,0 +1,33 @@
+{
+  "ticket_id": "SCRUM-14",
+  "feature_area": "Swag Labs inventory page (https://www.saucedemo.com/inventory.html): product list item count, price and Add to Cart button per item",
+  "test_types": ["ui"],
+  "implementation_source": "minimal",
+  "impl_diff_path": null,
+  "related_test_paths": ["tests/login.spec.ts", "pages/InventoryPage.ts", "pages/LoginPage.ts", "pages/BasePage.ts", "fixtures/index.ts"],
+  "e2e_conventions": {
+    "file_naming": "*.spec.ts in tests/",
+    "function_naming": "not specified; existing tests use descriptive sentence titles, e.g. 'standard user can log in'",
+    "test_style": "test.describe with test() blocks; assertions via expect(...).toBeVisible() / toHaveURL; import { test, expect } from '../fixtures'",
+    "selector_priority": "locators by id (#user-name, #login-button) and [data-test=\"error\"]; existing InventoryPage uses CSS class (.inventory_list)",
+    "page_objects_dir": "pages/ (BasePage, LoginPage, InventoryPage); locators are private readonly fields on page objects (public readonly only when specs assert on them directly, e.g. inventoryList, errorMessage)",
+    "test_data_dir": "test-data/ (users.ts exports standardUser)",
+    "markers": "none",
+    "architecture_notes": "Page Object Model; fixtures/index.ts extends Playwright test to provide loginPage and inventoryPage fixtures; utils/env.ts getCredentials() reads SAUCE_USERNAME / SAUCE_PASSWORD (default public demo credentials); baseURL https://www.saucedemo.com set in playwright.config.ts; BasePage.goto(path) wraps page.goto",
+    "testing_guidance": "locators may need adjusting if the site changes; no dotenv, set credentials via shell variables"
+  },
+  "framework": {
+    "tool": "playwright",
+    "api_test_location": null,
+    "ui_test_location": "tests/",
+    "api_run_command": null,
+    "ui_run_command": "npm test (headed: npm run test:headed; report: npm run report; types: npm run typecheck)"
+  },
+  "test_repo": { "separate": false, "root": "." },
+  "code_repos": ["vidushi283/playwrightpractice"],
+  "adapter_config": { "work_item": "jira-mcp", "mr": null },
+  "manual_test_cases_path": null,
+  "existing_ui_tests": ["tests/login.spec.ts"],
+  "existing_api_tests": [],
+  "notes": "Remote MR/commit search skipped: no MR Adapter configured and gh CLI unavailable; remote repo has no pushed branches. Step 2.5 (AskUserQuestion) unavailable to subagent, so implementation_source set to minimal. No MR URL in ticket (description, comments, changelog empty)."
+}

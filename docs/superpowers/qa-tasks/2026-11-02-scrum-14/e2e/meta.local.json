@@ -1,0 +1,26 @@
+{
+  "skill": "qa-e2e-generator",
+  "version": "0.2.1",
+  "ticket_id": "SCRUM-14",
+  "ticket_title": "inventory page test on sucedemo.com",
+  "generated_at": "2026-11-02T08:37:24Z",
+  "output_dir": "docs/superpowers/qa-tasks/2026-11-02-scrum-14/e2e/",
+  "framework": {
+    "tool": "playwright",
+    "api_test_location": null,
+    "ui_test_location": "tests/",
+    "api_run_command": null,
+    "ui_run_command": "npm test (headed: npm run test:headed; report: npm run report; types: npm run typecheck)"
+  },
+  "test_files": [
+    "tests/inventory.spec.ts"
+  ],
+  "execution_results": {
+    "total_tests": 2,
+    "passing": 2,
+    "failing": 0,
+    "fixes_applied": 0
+  },
+  "size_tshirt": "XS",
+  "status": "complete"
+}
